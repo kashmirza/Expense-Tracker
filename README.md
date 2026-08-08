@@ -242,83 +242,6 @@ This project demonstrates the following Python programming concepts:
 - File Management
 
 ---
-
-# 💾 Data Storage
-
-The application uses **JSON files** for storing financial information.
-
-Example data files:
-
-```text
-income.json
-expense.json
-budget.json
-receipts.json
-
-Expense-Tracker/
-│
-├── main.py
-├── auth.py
-├── dashboard.py
-├── file_handler.py
-│
-├── income.py
-├── expense.py
-├── budget.py
-├── reports.py
-├── analytics.py
-├── charts.py
-├── csv_export.py
-├── receipt.py
-│
-├── income.json
-├── expense.json
-├── budget.json
-├── receipts.json
-│
-├── receipts/
-│
-├── README.md
-└── ...
-
-Register
-   ↓
-Login
-   ↓
-Dashboard
-   ↓
-┌─────────────────────────┐
-│    Expense Tracker      │
-└─────────────────────────┘
-   ↓
-Income Management
-   ↓
-Expense Management
-   ↓
-Budget Management
-   ↓
-Reports
-   ↓
-Analytics
-   ↓
-Charts
-   ↓
-CSV Export
-   ↓
-Receipt Upload
-   ↓
-Logout
-
-1. Income Management
-2. Expense Management
-3. Budget Management
-4. Reports
-5. Analytics
-6. Charts
-7. Export CSV
-8. Receipt Upload
-9. Logout
-
 # 📦 Requirements
 
 The project requires:
@@ -345,6 +268,8 @@ Examples include:
 - Checking receipt file types
 - Checking whether files exist
 - Handling empty search values
+
+---
 
 # 🎯 Purpose of the Project
 
@@ -447,3 +372,80 @@ Additional improvements and features can be added in future versions.
 ## Kashmala Akram
 
 **Python Developer | Software Development | Financial Applications**
+
+# 💾 Data Storage
+
+The application uses **JSON files** for storing financial information.
+
+Example data files:
+
+```text
+income.json
+expense.json
+budget.json
+receipts.json
+
+Expense-Tracker/
+│
+├── main.py
+├── auth.py
+├── dashboard.py
+├── file_handler.py
+│
+├── income.py
+├── expense.py
+├── budget.py
+├── reports.py
+├── analytics.py
+├── charts.py
+├── csv_export.py
+├── receipt.py
+│
+├── income.json
+├── expense.json
+├── budget.json
+├── receipts.json
+│
+├── receipts/
+│
+├── README.md
+└── ...
+
+Register
+   ↓
+Login
+   ↓
+Dashboard
+   ↓
+┌─────────────────────────┐
+│    Expense Tracker      │
+└─────────────────────────┘
+   ↓
+Income Management
+   ↓
+Expense Management
+   ↓
+Budget Management
+   ↓
+Reports
+   ↓
+Analytics
+   ↓
+Charts
+   ↓
+CSV Export
+   ↓
+Receipt Upload
+   ↓
+Logout
+
+1. Income Management
+2. Expense Management
+3. Budget Management
+4. Reports
+5. Analytics
+6. Charts
+7. Export CSV
+8. Receipt Upload
+9. Logout
+
